@@ -44,10 +44,10 @@ THE SOFTWARE.
 			android:theme="@style/Library"
 			android:uiOptions="splitActionBarWhenNarrow"
 			android:launchMode="singleTask">
-			<intent-filter>
+			<!--<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
+			</intent-filter>-->
 		</activity>
 		<activity
 			android:name="PlaylistActivity"
@@ -145,6 +145,13 @@ THE SOFTWARE.
 		<activity
 			android:name="TabOrderActivity"
 			android:theme="@style/BackActionBar" />
+			
+		<activity android:name="org.kreed.vanilla.NewMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 		<meta-data
 			android:name="com.google.android.backup.api_key"
 			android:value="AEdPqrEAAAAIH6Xcxa4hn6sHN1m4jMpi4MFFFMP5sv3XhFuWeA" />
