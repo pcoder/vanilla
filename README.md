@@ -12,7 +12,7 @@ To build you will need:
 
 Building from command-line
 --------------------------
- * `android update project --path . --target android-10` to generate local.properties (Replace android-10 with your target version)
+ * `android update project --path . --target android-14` to generate local.properties (Replace android-14 with your target version. For lower target versions,some modifications are needed!)
  * `ant debug` to build the APK at bin/VanillaMusic-debug.apk
  * Optional: `ant installd` to install the APK to a connected device
 
